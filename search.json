@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "R Primers",
     "section": "",
-    "text": "A version of the old RStudio/Posit Primers, now with Quarto and webR."
+    "text": "A version of the old RStudio/Posit Primers, now with Quarto and webR.\nThis a plain fork of the version built by Andrew Heiss. I have not modified the content but may do in the future to adjust it for my own teaching needs. Larger changes I will document here:\n2025-08-25: Deployed to GitHub Pages as it was."
   },
   {
     "objectID": "index.html#license",

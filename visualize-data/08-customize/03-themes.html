@@ -1982,7 +1982,7 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 <section id="what-is-a-theme" class="level3">
 <h3 class="anchored" data-anchor-id="what-is-a-theme">What is a theme?</h3>
 <p>A theme describes how the non-data elements of your plot should look. For example, these two plots show the same data, but they use two very different themes.</p>
-<div class="cell quarto-layout-panel" data-layout-align="center" data-layout-ncol="2">
+<div class="cell quarto-layout-panel" data-layout-ncol="2" data-layout-align="center">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
 <div class="quarto-figure quarto-figure-center">
@@ -2175,7 +2175,7 @@ Continue
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/janlorenz\.github\.io\/r-primers\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
